@@ -1,0 +1,49 @@
+:root {
+  --color-yellow: #FFBA00;
+  --color-black: #14191F;
+  --color-white: #FFFFFF;
+}
+
+$bp-largest: 75em; //1200px
+$bp-large: 74.9375em; //1199px
+$bp-medium: 61.9375em; //991px
+$bp-small: 47.9375em; //767px
+$bp-smallest: 35.9375em; //575px
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+
+  font-family: 'Conv_TypeMates  CeraRoundProRegular';
+  font-weight: 400;
+  line-height: 1.6;
+
+  @media only screen and(max-width: $bp-small) {
+    font-size: 50%;
+  }
+}
+
+body {
+  background-color: #393837;
+  overflow-x: hidden;
+}
+
+body.lock{
+  overflow: hidden;
+}
+
+
+.container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.mr-0{
+  margin-right: 0 !important;
+}

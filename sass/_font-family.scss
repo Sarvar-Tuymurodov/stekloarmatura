@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'TT Drugs';
+  //src: url('../fonts/TTDrugs-Regular.eot');
+  src: local('TT Drugs Regular'), local('TTDrugs-Regular'),
+  url('css/font-family/TypeMates  Cera Round Pro Bold') format('embedded-opentype'),
+  url('../fonts/TTDrugs-Regular.woff2') format('woff2'),
+  url('../fonts/TTDrugs-Regular.woff') format('woff'),
+  url('../fonts/TTDrugs-Regular.ttf') format('truetype'),
+  url('../fonts/TTDrugs-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/TTDrugs-Bold.woff2') format('woff2'),
+  url('../fonts/TTDrugs-Bold.woff') format('woff'),
+  url('../fonts/TTDrugs-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
